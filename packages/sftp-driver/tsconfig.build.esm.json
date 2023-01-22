@@ -1,7 +1,7 @@
 {
-  "extends": "../../tsconfig.build.json",
+  "extends": "../../tsconfig.build.esm.json",
   "compilerOptions": {
-    "outDir": "./dist/cjs"
+    "outDir": "./dist/mjs"
   },
   "include": ["lib/**/*.ts"],
   "exclude": ["**/*.spec.ts"]

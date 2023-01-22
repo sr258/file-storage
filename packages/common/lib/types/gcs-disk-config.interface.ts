@@ -1,6 +1,6 @@
 import { StorageOptions } from '@google-cloud/storage';
-import { DriverName } from '../enums/driver-name.enum';
-import { DiskConfig } from './disk-config.interface';
+import { DriverName } from '../enums/driver-name.enum.js';
+import { DiskConfig } from './disk-config.interface.js';
 
 export interface GCSDiskConfig extends DiskConfig, StorageOptions {
   driver: DriverName.GCS;

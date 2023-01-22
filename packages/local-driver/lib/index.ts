@@ -1,1 +1,1 @@
-export { LocalDriver as default } from './local-driver';
+export { LocalDriver as default } from './local-driver.js';

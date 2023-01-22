@@ -1,1 +1,1 @@
-export { GoogleCloudStorageDriver as default } from './gcs-driver';
+export { GoogleCloudStorageDriver as default } from './gcs-driver.js';

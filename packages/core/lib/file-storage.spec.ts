@@ -1,7 +1,7 @@
 import fs from 'fs';
-import { Storage } from './file-storage';
+import { Storage } from './file-storage.js';
 import { DriverName, getExt, getRootCwd, LocalDiskConfig } from '@file-storage/common';
-import { BuiltInDiskConfig } from './types';
+import { BuiltInDiskConfig } from './types.js';
 
 describe('Storage', () => {
   test('Auto set default disk name when there is only one disk-config', () => {

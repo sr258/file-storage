@@ -8,7 +8,7 @@ import {
   S3DiskConfig,
   UnauthenticatedError,
 } from '@file-storage/common';
-import { S3Driver } from './s3-driver';
+import { S3Driver } from './s3-driver.js';
 
 describe('S3 Disk test', () => {
   const bucketName1 = 'mybucket1';

@@ -1,10 +1,10 @@
 import { Stream, Readable } from 'stream';
 import sharp from 'sharp';
-import { DriverName } from './enums/driver-name.enum';
-import { DiskConfig } from './types/disk-config.interface';
-import { ImageStats } from './types/image-stats.interface';
-import { bytesToKbytes, getExt, getFileName, streamToBuffer } from './utils';
-import { PutResult } from './types/put-result.interface';
+import { DriverName } from './enums/driver-name.enum.js';
+import { DiskConfig } from './types/disk-config.interface.js';
+import { ImageStats } from './types/image-stats.interface.js';
+import { bytesToKbytes, getExt, getFileName, streamToBuffer } from './utils.js';
+import { PutResult } from './types/put-result.interface.js';
 
 export abstract class Driver {
   name: DriverName | string;

@@ -1,7 +1,7 @@
 import { posix } from 'path';
 import sharp, { ResizeOptions } from 'sharp';
-import { config } from './config';
-import { FileStats } from './types';
+import { config } from './config.js';
+import { FileStats } from './types.js';
 
 const { parse, format } = posix;
 

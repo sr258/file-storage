@@ -5,8 +5,15 @@
   "author": "Dang Nguyen <haidang009@gmail.com>",
   "homepage": "",
   "license": "MIT",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/mjs/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/mjs/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
+  "types": "dist/cjs/index.d.ts",
   "files": [
     "dist"
   ],
@@ -21,7 +28,7 @@
   "scripts": {
     "build": "yarn clean && yarn compile",
     "clean": "rimraf -rf ./dist",
-    "compile": "tsc -p tsconfig.build.json",
+    "compile": "tsc -p tsconfig.build.json && tsc -p tsconfig.build.esm.json && ../../create-dist-modules.sh",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:detectOpenHandles": "jest --detectOpenHandles"

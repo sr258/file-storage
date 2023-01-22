@@ -1,7 +1,7 @@
 import fs from 'fs';
 import Storage from '@file-storage/core';
 import { DriverName, FileNotFoundError, GCSDiskConfig, getRootCwd } from '@file-storage/common';
-import { GoogleCloudStorageDriver } from './gcs-driver';
+import { GoogleCloudStorageDriver } from './gcs-driver.js';
 
 describe('Google Cloud Storage', () => {
   const bucketName1 = 'my_gcs_bucket';

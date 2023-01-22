@@ -1,5 +1,5 @@
-import { getExt } from '../dist';
-import { getFileName } from './utils';
+import { getExt } from '../dist.js';
+import { getFileName } from './utils.js';
 
 describe('Common utilities', () => {
   test('getFileName', () => {

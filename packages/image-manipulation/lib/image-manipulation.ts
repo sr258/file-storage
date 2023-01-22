@@ -5,8 +5,8 @@ import {
   Breakpoints,
   DEFAULT_BREAKPOINTS,
   DEFAULT_THUBNAIL_RESIZE_OPTIONS,
-} from './config';
-import { generateResponsiveFormats, generateThumbnail } from './utils';
+} from './config.js';
+import { generateResponsiveFormats, generateThumbnail } from './utils.js';
 
 interface ImageManipulationOptions {
   /**

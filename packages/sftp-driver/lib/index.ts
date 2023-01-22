@@ -1,1 +1,1 @@
-export { SftpDriver as default } from './sftp-driver';
+export { SftpDriver as default } from './sftp-driver.js';

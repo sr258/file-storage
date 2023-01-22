@@ -1,5 +1,5 @@
-import { DriverName } from '../enums/driver-name.enum';
-import { DiskConfig } from './disk-config.interface';
+import { DriverName } from '../enums/driver-name.enum.js';
+import { DiskConfig } from './disk-config.interface.js';
 
 export interface SftpDiskConfig extends DiskConfig {
   driver: DriverName.SFTP;

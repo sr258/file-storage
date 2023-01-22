@@ -1,5 +1,5 @@
 import { Stream } from 'stream';
-import { Driver } from './driver.class';
+import { Driver } from './driver.class.js';
 
 export abstract class Plugin {
   disk: Driver;

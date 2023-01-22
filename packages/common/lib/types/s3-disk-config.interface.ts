@@ -1,6 +1,6 @@
 import { S3ClientConfig } from '@aws-sdk/client-s3';
-import { DriverName } from '../enums/driver-name.enum';
-import { DiskConfig } from './disk-config.interface';
+import { DriverName } from '../enums/driver-name.enum.js';
+import { DiskConfig } from './disk-config.interface.js';
 
 export interface S3DiskConfig extends DiskConfig, S3ClientConfig {
   driver: DriverName.S3;

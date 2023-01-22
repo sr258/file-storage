@@ -11,7 +11,7 @@ import {
   getFileName,
   ImageStats,
 } from '@file-storage/common';
-import { BuiltInDiskConfig, StorageConfiguration } from './types';
+import { BuiltInDiskConfig, StorageConfiguration } from './types.js';
 import { v4 as uuidv4 } from 'uuid';
 import { parse, format } from 'path';
 

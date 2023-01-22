@@ -1,1 +1,1 @@
-export { FtpDriver as default } from './ftp-driver';
+export { FtpDriver as default } from './ftp-driver.js';

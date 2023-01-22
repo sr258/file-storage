@@ -1,1 +1,1 @@
-export { ImageManipulation as default } from './image-manipulation';
+export { ImageManipulation as default } from './image-manipulation.js';
